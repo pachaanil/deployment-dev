@@ -10,12 +10,13 @@
         <module>person-service</module>
         <module>sonar-plugins</module>
     </modules>
-
     <properties>
         <java.version>21</java.version>
         <sonar.projectKey>piomin_sample-java-sonar</sonar.projectKey>
         <sonar.organization>piomin</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.host.url>http://100.26.211.188:9000/</sonar.host.url>
+        <sonar.login>admin</sonar.login>
+        <sonar.password>admin</sonar.password>
     </properties>
 
 </project>
